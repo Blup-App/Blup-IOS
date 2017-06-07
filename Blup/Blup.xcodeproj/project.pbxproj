@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14EDC63FC97E36A35CD05BE6 /* Pods_Blup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37298D3576A89599FCD77B5 /* Pods_Blup.framework */; };
+		473FE9D21EE6C50A00789CAD /* Loan_item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473FE9D11EE6C50A00789CAD /* Loan_item.swift */; };
+		47CDDBFE1EE702BD00FE2CF8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CDDBFD1EE702BD00FE2CF8 /* LoginController.swift */; };
+		47F253F91EE7700800C03F11 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F253F81EE7700800C03F11 /* NetworkManager.swift */; };
+		47F253FD1EE771FF00C03F11 /* BlupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F253FC1EE771FF00C03F11 /* BlupTableViewCell.swift */; };
 		47F39B5B1EE612C80036E57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F39B5A1EE612C80036E57A /* AppDelegate.swift */; };
 		47F39B5D1EE612C80036E57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F39B5C1EE612C80036E57A /* ViewController.swift */; };
 		47F39B601EE612C80036E57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F39B5E1EE612C80036E57A /* Main.storyboard */; };
@@ -15,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473FE9D11EE6C50A00789CAD /* Loan_item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan_item.swift; sourceTree = "<group>"; };
+		47CDDBFD1EE702BD00FE2CF8 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		47F253F81EE7700800C03F11 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		47F253FC1EE771FF00C03F11 /* BlupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlupTableViewCell.swift; sourceTree = "<group>"; };
 		47F39B571EE612C80036E57A /* Blup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F39B5A1EE612C80036E57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F39B5C1EE612C80036E57A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		47F39B611EE612C80036E57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47F39B641EE612C80036E57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47F39B661EE612C80036E57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78228E9AEFCBA5A0608E6F0F /* Pods-Blup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blup/Pods-Blup.release.xcconfig"; sourceTree = "<group>"; };
+		BA7AD61CB77908C9C04ED10C /* Pods-Blup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blup/Pods-Blup.debug.xcconfig"; sourceTree = "<group>"; };
+		C37298D3576A89599FCD77B5 /* Pods_Blup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EDC63FC97E36A35CD05BE6 /* Pods_Blup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D8C60D004BE1AA6AACFBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37298D3576A89599FCD77B5 /* Pods_Blup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		473FE9D31EE6F94600789CAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				473FE9D11EE6C50A00789CAD /* Loan_item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		473FE9D41EE6F9A200789CAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47F39B5C1EE612C80036E57A /* ViewController.swift */,
+				47CDDBFD1EE702BD00FE2CF8 /* LoginController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47981EE61EE76A6800F4BA19 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				47F253FC1EE771FF00C03F11 /* BlupTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		47F253F71EE76FD900C03F11 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				47F253F81EE7700800C03F11 /* NetworkManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 		47F39B4E1EE612C80036E57A = {
 			isa = PBXGroup;
 			children = (
 				47F39B591EE612C80036E57A /* Blup */,
 				47F39B581EE612C80036E57A /* Products */,
+				CB5EDFC0C9C5D900BC95B069 /* Pods */,
+				34D8C60D004BE1AA6AACFBDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,26 @@
 		47F39B591EE612C80036E57A /* Blup */ = {
 			isa = PBXGroup;
 			children = (
+				47F253F71EE76FD900C03F11 /* Manager */,
+				47981EE61EE76A6800F4BA19 /* Cells */,
+				473FE9D41EE6F9A200789CAD /* ViewControllers */,
+				473FE9D31EE6F94600789CAD /* Models */,
 				47F39B5A1EE612C80036E57A /* AppDelegate.swift */,
-				47F39B5C1EE612C80036E57A /* ViewController.swift */,
 				47F39B5E1EE612C80036E57A /* Main.storyboard */,
 				47F39B611EE612C80036E57A /* Assets.xcassets */,
 				47F39B631EE612C80036E57A /* LaunchScreen.storyboard */,
 				47F39B661EE612C80036E57A /* Info.plist */,
 			);
 			path = Blup;
+			sourceTree = "<group>";
+		};
+		CB5EDFC0C9C5D900BC95B069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA7AD61CB77908C9C04ED10C /* Pods-Blup.debug.xcconfig */,
+				78228E9AEFCBA5A0608E6F0F /* Pods-Blup.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47F39B691EE612C80036E57A /* Build configuration list for PBXNativeTarget "Blup" */;
 			buildPhases = (
+				01EAACD2AB46860F60085794 /* [CP] Check Pods Manifest.lock */,
 				47F39B531EE612C80036E57A /* Sources */,
 				47F39B541EE612C80036E57A /* Frameworks */,
 				47F39B551EE612C80036E57A /* Resources */,
+				36E24FEED1450332DB135A83 /* [CP] Embed Pods Frameworks */,
+				85CA76FC337F43E4105A0230 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +202,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01EAACD2AB46860F60085794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36E24FEED1450332DB135A83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blup/Pods-Blup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CA76FC337F43E4105A0230 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blup/Pods-Blup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47F39B531EE612C80036E57A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F253F91EE7700800C03F11 /* NetworkManager.swift in Sources */,
 				47F39B5D1EE612C80036E57A /* ViewController.swift in Sources */,
+				473FE9D21EE6C50A00789CAD /* Loan_item.swift in Sources */,
 				47F39B5B1EE612C80036E57A /* AppDelegate.swift in Sources */,
+				47F253FD1EE771FF00C03F11 /* BlupTableViewCell.swift in Sources */,
+				47CDDBFE1EE702BD00FE2CF8 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +381,7 @@
 		};
 		47F39B6A1EE612C80036E57A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7AD61CB77908C9C04ED10C /* Pods-Blup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blup/Info.plist;
@@ -270,6 +394,7 @@
 		};
 		47F39B6B1EE612C80036E57A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78228E9AEFCBA5A0608E6F0F /* Pods-Blup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blup/Info.plist;
@@ -299,6 +424,7 @@
 				47F39B6B1EE612C80036E57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
